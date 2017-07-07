@@ -3,8 +3,8 @@ const mkdirp = require('mkdirp-promise')
 const path = require('path')
 const yaml = require('js-yaml')
 
-const sourceDir = path.join(__dirname, 'src')
-const outputDir = path.join(__dirname, 'data')
+const sourceDir = path.join(__dirname, 'data')
+const outputDir = path.join(__dirname, 'out')
 
 const users = fs.readdirSync(sourceDir)
 

@@ -1,0 +1,7 @@
+language: generic
+
+script: bash ./deploy.sh
+env:
+  global:
+  - ENCRYPTION_LABEL: "e36734c37c9c"
+  - COMMIT_AUTHOR_EMAIL: "api@open-source.love"
