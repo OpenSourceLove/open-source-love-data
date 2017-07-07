@@ -1,3 +1,5 @@
+language: generic
+
 deploy:
   provider: pages
   skip_cleanup: true
