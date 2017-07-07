@@ -6,7 +6,7 @@ This is a very simple API to deliver the entries for the Open Source Love projec
 
 A build script walks the directory tree and generates a JSON file for each repository, aggregating all its entries.
 
-The data is being served with GitHub Page and can be accessed with a GET request to https://opensourcelove.github.io/open-source-love-data/<USERNAME>/<REPOSITORY>.json. If the response comes back as 404, it means we don't have any entries for that particular repository yet.
+The data is being served with GitHub Page and can be accessed with a GET request to https://opensourcelove.github.io/open-source-love-data/{USERNAME}/{REPOSITORY}.json. If the response comes back as 404, it means we don't have any entries for that particular repository yet.
 
 ### Auto deploy
 
