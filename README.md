@@ -1,6 +1,8 @@
 # Open Source Love
 
-## Entries API
+[![Build Status](https://travis-ci.org/OpenSourceLove/open-source-love-data.svg?branch=master)](https://travis-ci.org/OpenSourceLove/open-source-love-data)
+
+## Entries API 
 
 This is a very simple API to deliver the entries for the Open Source Love project as JSON. It consists of a series of YAML files stored in nested directories, with the first level representing the GitHub username/organisation and the second one the name of the repository. Each file represents an entry and contains information about its author, date and the actual message.
 
